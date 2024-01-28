@@ -1,0 +1,23 @@
+{
+  "name": "teerapatjunctest",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "workspaces": {
+    "packages": [
+      "backend/*",
+      "frontend/*"
+    ]
+  },
+  "scripts": {
+    "market-api": "yarn workspace @market/market-api devwin",
+    "market-web": "yarn workspace @market/market-web devwin"
+
+
+  },
+  "keywords": [],
+  "author": "Teerapat.junc <teerapat.junc.dev@gmail.com>",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
